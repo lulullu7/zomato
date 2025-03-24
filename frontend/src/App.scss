@@ -20,23 +20,24 @@
   background-image: url(https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png);
   background-size: cover;
   @include alignflex();
+  
 
 
   .first_section_innerdiv {
     height: 100%;
     width: 75%;
-    background-color: red;
+
     color: white;
 
     .first_section_nav {
       height: 100px;
       width: 100%;
-      background-color: orange;
+
       display: flex;
 
       .first_section_nav_left {
         flex: 1;
-        background-color: blue;
+ 
         display: flex;
         align-items: center;
 
@@ -44,7 +45,7 @@
 
       .first_section_nav_right {
         flex: 1;
-        background-color: green;
+       
         @include alignflex(row, center,space-between );
         font-size: 18px;
       
@@ -56,12 +57,17 @@
     .first_section_middle{
       height: 80%;
       width: 100%;
-      background-color: yellow;
+   
       @include alignflex(column,center,center);
+      position: relative;
+      position: relative;
+      position: relative;
+    
+
 
       .first_section_middle_heading{
         font-size:37px ;
-        margin: 20px;
+        margin: 30px;
       }
       .first_section_middle_inputmain{
         width: 70%;
@@ -73,7 +79,7 @@
           background-color: white;
           color: rgb(32, 31, 31);
           width: 20%;
-          height: 50px;
+          height: 60px;
           @include alignflex();
           border-top-left-radius: 10px;
           border-bottom-left-radius: 10px;
@@ -83,7 +89,7 @@
 
         .line{
           background-color: white;
-          height: 50px;
+          height: 60px;
           color: black;
           @include alignflex();
           font-size: 25px;
@@ -93,21 +99,174 @@
         }
         .first_section_middle_search{
           all: unset;
-          width: 59%;
-          height: 50px;
+          width: 53%;
+          height: 60px;
           background-color: white;
           color: rgb(32, 31, 31);
           border-top-right-radius: 10px;
           border-bottom-right-radius: 10px;
+          padding-left: 60px;
       
   
   
+        }
+        .first_section_middle_search_icon{
+          font-size: 25px;
+          color: black;
+          position: absolute;
+          left: 40%;
+        }
+        .first_section_middle_location_icon{
+          font-size: 25px;
+          color: rgb(206, 89, 109);
+          position: absolute;
+          left: 21%;
+        }
+        .first_section_middle_downarrow_icon{
+          font-size: 25px;
+          color: gray;
+          position: absolute;
+          left: 35%;
+
         }
   
 
       }
 
       
+    }
+  }
+}
+
+// second section style
+
+.second_section_main{
+  height: auto;
+  width: 100%;
+  @include alignflex();
+  padding-top: 3%;
+  padding-bottom: 3%;
+
+  .second_section_innerdiv_main{
+    height: 100%;
+    width: 75%;
+    @include alignflex(row,center ,space-between );
+  
+
+
+    .second_section_card_main{
+      height: 250px;
+      width: 49%;
+      border-radius: 20px;
+      border: 1px solid rgba(35, 34, 34, 0.17);
+      cursor: pointer;
+
+      .second_section_card_image{
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+      }
+      .second_section_card_content{
+        height: 80px;
+        width: 100%;
+        padding: 10px;
+        color: rgba(11, 11, 11, 0.649);
+      }
+      &:hover{
+        scale: 1.03;
+      }
+
+    }
+  }
+
+}
+
+
+// collection third section style
+
+.third_section_main{
+  height: auto;
+  width: 100%;
+  @include alignflex( );
+  padding-top: 3%;
+  padding-bottom: 5%;
+
+  .third_section_innerdiv_main{
+    height: 100%;
+    width: 75%;
+
+    .third_section_heading{
+      font-size: 40px;
+      color: black;
+
+    }
+    .third_section_subheading_main{
+      height: 60px;
+      width: 100%;
+      background-color: white;
+      font-size: 20px;
+      @include alignflex(row,center ,space-between );
+
+      .third_section_subheading_left{
+        color: rgb(40, 39, 39);
+      }
+
+      .third_section_subheading_right{
+        color: rgb(230, 133, 149);
+        font-size: 19px;
+        @include alignflex();
+      }
+    }
+    .third_section_card_main{
+      height: 100%;
+      width: 100%;
+      @include alignflex(row,center ,space-between );
+
+      .third_section_card_onebyone{
+        height: 350px;
+        width: 23%;
+        border-radius: 10px;
+        color: white;
+        @include alignflex(column,start ,end );
+        padding: 10px;
+        cursor: pointer;
+
+
+        .third_section_card_onebyone_heading{
+          font-size: 20px;
+          margin: 5px;
+
+        }
+        .third_section_card_onebyone_subheading{
+          font-size: 18px;
+          margin-left: 5px;
+          @include alignflex(row,center ,start )
+        }
+      }
+      .card_one{
+        background-color: rgba(0, 0, 0, 0.404);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaLRXHsBC9-evkCtS6IQCfk06RElgJkUuKQ4x82Zeh0qIICFJaI5amjynr2UqOxg9VnQ0&usqp=CAU);
+        background-size: 100% 100%;
+        background-blend-mode: multiply;
+      }
+      .card_two{
+        background-color: rgba(0, 0, 0, 0.404);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaLRXHsBC9-evkCtS6IQCfk06RElgJkUuKQ4x82Zeh0qIICFJaI5amjynr2UqOxg9VnQ0&usqp=CAU);
+        background-size: 100% 100%;
+        background-blend-mode: multiply;
+      }
+      .card_three{
+        background-color: rgba(0, 0, 0, 0.404);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaLRXHsBC9-evkCtS6IQCfk06RElgJkUuKQ4x82Zeh0qIICFJaI5amjynr2UqOxg9VnQ0&usqp=CAU);
+        background-size: 100% 100%;
+        background-blend-mode: multiply;
+      }
+      .card_four{
+        background-color: rgba(0, 0, 0, 0.404);
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaLRXHsBC9-evkCtS6IQCfk06RElgJkUuKQ4x82Zeh0qIICFJaI5amjynr2UqOxg9VnQ0&usqp=CAU);
+        background-size: 100% 100%;
+        background-blend-mode: multiply;
+
+      }
     }
   }
 }
