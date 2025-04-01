@@ -6,6 +6,11 @@ import { TiArrowSortedDown } from "react-icons/ti";
 import { MdArrowRight } from "react-icons/md";
 import { RiArrowRightSLine } from "react-icons/ri";
 import { FaChevronDown } from "react-icons/fa";
+import { TiSocialLinkedinCircular } from "react-icons/ti";
+import { FaInstagram } from "react-icons/fa6";
+import { FaYoutube } from "react-icons/fa";
+import { FaFacebookF } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 
 function app() {
   return (
@@ -210,7 +215,7 @@ function app() {
               src="https://b.zmtcdn.com/data/o2_assets/ce5bc038a8a2d4f8f24465c8826182af1726501431.png" alt="poster" />
           </div>
           <div className='fifth_section_innerdiv_right'>
-            <h1 style={{ fontSize: '45px', marginBottom:'3%' }}>Get the Zomato app</h1>
+            <h1 style={{ fontSize: '45px', marginBottom: '3%' }}>Get the Zomato app</h1>
             <p className='fifth_section_innerdiv_right_subheading'>We will send you a link, open it on your phone to download the app</p>
 
             <div className='fifth_section_innerdiv_right_radiomain'>
@@ -245,6 +250,67 @@ function app() {
 
           </div>
 
+
+        </div>
+      </section>
+
+      {/* footer */}
+      <section className='footer_section_main'>
+        <div className='footer_section_innerdiv_main'>
+          <img height={'40px'} width={'200px'} src="	https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" alt="" />
+          <div className='footer_section_content'>
+            <div className='footer_section_content_one'>
+              <div className='footer_section_content_heading'>Eternal</div>
+
+              <div className='footer_section_content_subheading'>Zomato</div>
+              <div className='footer_section_content_subheading'>Blinkit</div>
+              <div className='footer_section_content_subheading'> District</div>
+              <div className='footer_section_content_subheading'>  Hyperpure</div>
+              <div className='footer_section_content_subheading'> Feeding India</div>
+              <div className='footer_section_content_subheading'> Investor Relations</div>
+
+
+
+            </div>
+            <div className='footer_section_content_two'>
+              <div className='footer_section_content_heading'>For Restaurant</div>
+              <div className='footer_section_content_subheading'>Partner With Us</div>
+              <div className='footer_section_content_subheading'> Apps For You</div>
+
+            </div>
+            <div className='footer_section_content_three'>
+              <div className='footer_section_content_heading'>For Restaurant</div>
+              <div className='footer_section_content_subheading'>Partner With Us</div>
+              <div className='footer_section_content_subheading'> Apps For You</div>
+            </div>
+            <div className='footer_section_content_four'>
+              <div className='footer_section_content_heading'>Eternal</div>
+              <div className='footer_section_content_subheading'>Zomato</div>
+              <div className='footer_section_content_subheading'>Blinkit</div>
+              <div className='footer_section_content_subheading'> District</div>
+              <div className='footer_section_content_subheading'>  Hyperpure</div>
+              <div className='footer_section_content_subheading'> Feeding India</div>
+              <div className='footer_section_content_subheading'> Investor Relations</div>
+            </div>
+            <div className='footer_section_content_five'>
+              <div className='footer_section_content_heading'>Eternal</div>
+              <div>
+
+                <TiSocialLinkedinCircular className='footer_section_icon' />
+                <FaInstagram className='footer_section_icon' />
+                <FaYoutube className='footer_section_icon' />
+                <FaFacebookF className='footer_section_icon' />
+                <FaXTwitter className='footer_section_icon' />
+
+              </div>
+
+              <img height={'60px'} width={'170px'} src="	https://b.zmtcdn.com/data/o2_assets/df6464de32f4a09262cee301f65aaa661739351256.png" alt="" />
+              <img height={'60px'} width={'170px'} src=" https://b.zmtcdn.com/data/o2_assets/aad864bd17860b27634fe621001c32db1739350431.png" alt="" />
+            </div>
+          </div>
+          <div className='footer_section_line'></div>
+          <div className='footer_section_last_conrent'>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners
+            2008-2025 © Zomato™ Ltd. All rights reserved.</div>
 
         </div>
       </section>
