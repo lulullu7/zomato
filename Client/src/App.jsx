@@ -12,7 +12,7 @@ import { FaYoutube } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 
-function app() {
+function App() {
   return (
     <div>
       {/* section 1 */}
@@ -326,4 +326,4 @@ function app() {
   )
 }
 
-export default app
+export default App
