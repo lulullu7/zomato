@@ -279,21 +279,24 @@ function app() {
 
             </div>
             <div className='footer_section_content_three'>
-              <div className='footer_section_content_heading'>For Restaurant</div>
+              <div className='footer_section_content_heading'>For Delivery 
+                <br />Partners</div>
               <div className='footer_section_content_subheading'>Partner With Us</div>
               <div className='footer_section_content_subheading'> Apps For You</div>
+
+
             </div>
             <div className='footer_section_content_four'>
-              <div className='footer_section_content_heading'>Eternal</div>
-              <div className='footer_section_content_subheading'>Zomato</div>
-              <div className='footer_section_content_subheading'>Blinkit</div>
-              <div className='footer_section_content_subheading'> District</div>
-              <div className='footer_section_content_subheading'>  Hyperpure</div>
-              <div className='footer_section_content_subheading'> Feeding India</div>
-              <div className='footer_section_content_subheading'> Investor Relations</div>
+              <div className='footer_section_content_heading'>Learn More</div>
+              <div className='footer_section_content_subheading'>Privacy</div>
+              <div className='footer_section_content_subheading'>Security</div>
+              <div className='footer_section_content_subheading'> Terms of Service</div>
+              <div className='footer_section_content_subheading'>  Help & Support</div>
+              <div className='footer_section_content_subheading'> Report a Fraud</div>
+              <div className='footer_section_content_subheading'> Blog</div>
             </div>
             <div className='footer_section_content_five'>
-              <div className='footer_section_content_heading'>Eternal</div>
+              <div className='footer_section_content_heading'>Social Links</div>
               <div>
 
                 <TiSocialLinkedinCircular className='footer_section_icon' />
